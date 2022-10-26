@@ -4,9 +4,7 @@ import Card from './Card';
 
 function App() {
   return (
-    <div className="search">
-      <input type="text" />
-      <button>Search</button>
+    <div>
       <Card data={data} />
     </div>
   );
